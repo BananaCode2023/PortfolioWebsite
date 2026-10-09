@@ -1,0 +1,127 @@
+:root{
+    --body-font: 'inter';
+    --heading-font: 'manrope';
+    --black: #000000;
+    --white: #ffffff;
+    --background: #1a1a2e;
+    --dark-background: #080B12;
+    --gradient-background: linear-gradient(125deg, rgb(26, 26, 46), rgb(17, 21, 34) 68%, rgb(13, 17, 28));
+    --accent: #4a90e2;
+    --light-accent: #71b6fb;
+    --access: #6BD99B;
+    --light-line: rgba(255,255,255,0.2);
+    --light-gray: #F7F9FC;
+    --dark-gray: #c7ccda;
+    --error: #800000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: var(--body-font);
+    background: var(--gradient-background);
+}
+h1,h2,h3,h4,h5{
+    font-family: var(--heading-font);
+}
+
+.hollow{
+    padding-inline: 24px;
+    padding-block: 16px;
+    color: var(--white);
+    background-color: rgba(255,255,255,0.03);
+    border: 1px solid rgba(255,255,255,0.2);
+    border-radius: 999px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+    font-family: var(--body-font);
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+
+    &:hover{
+        border: 1px solid var(--light-accent);
+        transform: translateY(-2px);
+    }
+
+    @media(max-width: 525px){
+        font-size: 12px;
+        padding: 16px;
+    }
+}
+
+.solid{
+    padding-inline: 24px;
+    padding-block: 16px;
+    color: var(--white);
+    background-color: var(--accent);
+    border: 1px solid  var(--accent);
+    border-radius: 999px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 13px;
+    font-family: var(--body-font);
+    cursor: pointer;
+    transition: 0.2s;
+    text-decoration: none;
+
+    &:hover{
+        border: 1px solid var(--light-accent);
+        background-color: var(--light-accent);
+        transform: translateY(-2px);
+    }
+
+    @media(max-width: 525px){
+        font-size: 12px;
+        padding: 16px;
+    }
+}
+
+.pretitle{
+  color: var(--light-accent);
+  text-transform: uppercase;
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 2.5px;
+}
+
+.icon{
+    color: var(--light-accent);
+    font-size: 24px;
+}
+
+.title{
+    font-size: 50px;
+    color: var(--white);
+    font-family: var(--heading-font);
+    font-weight: 600;
+    letter-spacing: -2px;
+    line-height: 56px;
+    margin-block: 0;
+
+    @media(max-width: 768px){
+        font-size: 40px;
+    }
+
+    @media(max-width: 525px){
+        font-size: 32px;
+    }
+}
+
+.subtitle{
+    font-size: 14px;
+    color: var(--dark-gray);
+    letter-spacing: 0px;
+    font-family: var(--body-font);
+    font-weight: 400;
+    line-height: 24px;
+}

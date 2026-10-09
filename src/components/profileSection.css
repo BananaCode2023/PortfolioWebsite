@@ -1,0 +1,229 @@
+
+
+#profileSection{
+  max-width: 1180px;
+  margin-inline: auto;
+  height: calc(100vh - 96px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+  @media(max-width: 525px){
+    height: unset;
+  }
+
+  @media(max-width: 1330px){
+        width: 100%;
+        max-width: calc(100vw - 96px);
+    }
+
+    @media(max-width: 525px){
+        max-width: calc(100vw - 44px);
+    }
+}
+.profile__container{
+  display: flex;
+  justify-content: space-between;
+  padding-block: 96px;
+
+  @media(max-width: 768px){
+    overflow: hidden;
+    padding-block: 44px;
+  }
+  
+  @media(max-width: 525px){
+    flex-direction: column-reverse;
+    align-items: center;
+    
+  }
+}
+
+.profile-bio__container{
+  max-width: 50%;
+  @media(max-width: 768px){
+    max-width: 60%;
+  }
+
+  @media(max-width: 525px){
+    margin-top: 16px;
+    max-width: 100%;
+    padding-inline: 22px;
+    text-align: center;
+  }
+}
+
+.profile-status__light{
+    position: relative;
+    margin-right: 24px;
+    &:before{
+        margin-top: 4px;
+        content: '';
+        display: block;
+        background-color: var(--access);
+        height: 8px;
+        width: 8px;
+        border-radius: 100%;
+        position: absolute;
+        left: 4px;
+        top: 4px;
+    }
+    &:after{
+        margin-top: 4px;
+        position: absolute;
+        content: '';
+        height: 16px;
+        width: 16px;
+        background-color: rgba(155, 236, 190, 0.2);
+        border-radius: 100%;
+        top: 0px;
+        left: 0;
+    }
+}
+
+.profile-status{
+    color: var(--dark-gray);
+    font-weight: 400;
+    font-family: var(--body-font);
+    font-size: 11px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.profile-pretitle{
+  margin-top: 48px;
+  margin-left: 4px;
+}
+
+.profile__title{
+  font-size: 70px;
+  font-weight: 700;
+  line-height: 60px;
+  display: flex;
+  flex-direction: column;
+  letter-spacing: -4px;
+  font: 700 clamp(58px, 7vw, 96px)/.87 "Manrope", sans;
+  margin-block: 24px;
+  text-transform: uppercase;
+  
+  .profile-title__solid{
+    color: var(--white);
+  }
+  .profile-title__hollow{
+    color: transparent;
+    -webkit-text-stroke: 1px rgba(255,255,255,.55);
+  }
+
+  @media(max-width: 525px){
+    font: 600 clamp(58px, 7vw, 96px)/.87 "Manrope", sans;
+  }
+
+  @media(max-width: 420px){
+    font: 700 clamp(46px, 7vw, 96px)/.87 "Manrope", sans;
+    line-height: 56px;
+  }
+}
+
+.profile-subtitle{
+  color: var(--dark-gray);
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 30px;
+  letter-spacing: 0.2px;
+
+  @media(max-width: 768px){
+    letter-spacing: 0px;
+    font-size: 14px;
+  }
+}
+
+.profile-btns__container{
+  display: flex;
+  align-items: center;
+  gap: 32px;
+  margin-top: 48px;
+
+  @media(max-width: 525px){
+    justify-content: center;
+  }
+}
+
+.profile-explore__btn{
+  text-decoration: none;
+}
+
+.profile-email__link{
+  color: var(--white);
+  text-decoration: none;
+  font-size: 13px;
+  font-weight: 600;
+  font-family: var(--body-font);
+  transition: 0.2s;
+  text-shadow: 0px 0px 0px rgba(113, 182, 251,0.4);
+
+  &:hover{
+    color: var(--light-accent);
+    text-shadow: 0px 0px 8px rgba(113, 182, 251,0.4);
+  }
+}
+
+.profile-image__container{
+  max-width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media(max-width: 525px){
+    max-width: 100%;
+  }
+
+  .profile-image__orbits{
+    position: relative;
+    z-index: 1;
+    background-image: url('../assets/orbits.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    @media(max-width: 525px){
+      width: 100%;
+      min-height: 400px;
+    }
+  }
+
+  img{
+    position: relative;
+    z-index: 0;
+    border-radius: 50%;
+    border: 1px solid rgba(255,255,255,0.3);
+    width: 53%;
+    box-shadow: 0px 0px 96px rgba(28, 28, 29, 1);
+
+    @media(max-width: 1024px){
+      width: 72%;
+    }
+    @media(max-width: 525px){
+      height: 80%;
+      width: 63%;
+    }
+    @media(max-width: 480px){
+      width: 74%;
+    }
+    
+  }
+}
+
+.profile-discover__link{
+  color: var(--dark-gray);
+  font-size: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-decoration: none;
+  font-weight: 300;
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  margin-bottom: 64px;
+}

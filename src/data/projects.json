@@ -1,0 +1,47 @@
+[
+    {
+        "id": 1,
+        "projectName": "PJ Estates",
+        "projectDescription": "A premium storefront designed around effortless product discovery. The modular React architecture keeps every interaction fast and fluid.",
+        "projectImage": "/projectImages/PJEstatesCoverImage.jpg",
+        "projectCategory": "Real Estate",
+        "projectTechnologiesUsed": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "JSON"
+        ],
+        "projectLink": "https://pjestates.netlify.app/",
+        "projectGithubLink": "https://github.com/BananaCode2023/real-estate-project"
+    },
+    {
+        "id": 2,
+        "projectName": "React Practice Apps",
+        "projectDescription": "A premium storefront designed around effortless product discovery. The modular React architecture keeps every interaction fast and fluid.",
+        "projectImage": "/projectImages/PracticeAppsCoverImage.jpg",
+        "projectCategory": "Web-Application",
+        "projectTechnologiesUsed": [
+            "React-Vite",
+            "CSS",
+            "Axios",
+            "JSON"
+        ],
+        "projectLink": "https://practiceapps.netlify.app/",
+        "projectGithubLink": "https://github.com/BananaCode2023/Practice-Apps"
+    },
+    {
+        "id": 3,
+        "projectName": "OrganizeMe",
+        "projectDescription": "A premium storefront designed around effortless product discovery. The modular React architecture keeps every interaction fast and fluid.",
+        "projectImage": "/projectImages/OrganizeMeCoverImage.jpg",
+        "projectCategory": "Web-Application",
+        "projectTechnologiesUsed": [
+            "Mongo DB",
+            "Express Js",
+            "React-Vite",
+            "Node Js"
+        ],
+        "projectLink": "https://organizemefrontend.netlify.app/",
+        "projectGithubLink": "https://github.com/BananaCode2023/Revamp_OrganizeMe"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "technology": "React"
+    },
+    {
+        "id": 2,
+        "technology": "JavaScript"
+    },
+    {
+        "id": 3,
+        "technology": "TypeSrcipt"
+    },
+    {
+        "id": 4,
+        "technology": "HML5"
+    },
+    {
+        "id": 5,
+        "technology": "CSS3"
+    },
+    {
+        "id": 6,
+        "technology": "Firebase"
+    },
+    {
+        "id": 7,
+        "technology": "Git/ Github"
+    },
+    {
+        "id": 8,
+        "technology": "Figma"
+    },
+    {
+        "id": 9,
+        "technology": "Figma Make"
+    },
+    {
+        "id": 10,
+        "technology": "Claude"
+    },
+    {
+        "id": 11,
+        "technology": "Github Copilot"
+    },
+    {
+        "id": 12,
+        "technology": "Netlify"
+    }
+]
