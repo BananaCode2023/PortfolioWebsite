@@ -2,7 +2,7 @@
     {
         "id": 1,
         "projectName": "PJ Estates",
-        "projectDescription": "A premium storefront designed around effortless product discovery. The modular React architecture keeps every interaction fast and fluid.",
+        "projectDescription": "Inspired by my previous experience at Luxury Presence, a company specializing in websites and marketing services for real estate professionals. I developed my own backend to practice API integration and property data management while showcasing my understanding of the real estate industry and user-focused web development.",
         "projectImage": "/projectImages/PJEstatesCoverImage.jpg",
         "projectCategory": "Real Estate",
         "projectTechnologiesUsed": [
@@ -17,7 +17,7 @@
     {
         "id": 2,
         "projectName": "React Practice Apps",
-        "projectDescription": "A premium storefront designed around effortless product discovery. The modular React architecture keeps every interaction fast and fluid.",
+        "projectDescription": "A collection of React applications built with Vite to recall my skills in React development, including hooks, state management, and API integration. The collection features 6 projects that are each designed to practice and apply different front-end development concepts using React-Vite.",
         "projectImage": "/projectImages/PracticeAppsCoverImage.jpg",
         "projectCategory": "Web-Application",
         "projectTechnologiesUsed": [
@@ -32,7 +32,7 @@
     {
         "id": 3,
         "projectName": "OrganizeMe",
-        "projectDescription": "A premium storefront designed around effortless product discovery. The modular React architecture keeps every interaction fast and fluid.",
+        "projectDescription": "A collaborative to-do list web application inspired by Todoist, developed as a group project during my studies at KodeGo Bootcamp. As the team leader, I guided the project’s development and collaborated with my teammates to build a productivity-focused application designed to help users organize tasks and manage their daily activities.",
         "projectImage": "/projectImages/OrganizeMeCoverImage.jpg",
         "projectCategory": "Web-Application",
         "projectTechnologiesUsed": [
