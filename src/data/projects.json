@@ -16,18 +16,17 @@
     },
     {
         "id": 2,
-        "projectName": "React Practice Apps",
-        "projectDescription": "A collection of React applications built with Vite to recall my skills in React development, including hooks, state management, and API integration. The collection features 6 projects that are each designed to practice and apply different front-end development concepts using React-Vite.",
-        "projectImage": "/projectImages/PracticeAppsCoverImage.jpg",
-        "projectCategory": "Web-Application",
+        "projectName": "PJ Estates TypeScript",
+        "projectDescription": "A recreation of my original PJ Estates real estate website, rebuilt using React, TypeScript, and Vite. Inspired by my previous experience with Luxury Presence, this project focuses on modernizing the original HTML, CSS, and JS implementation while improving my skills in component-based development, code reusability, and TypeScript.",
+        "projectImage": "/projectImages/PJEstatestTypeScriptCoverImage.jpg",
+        "projectCategory": "Real Estate",
         "projectTechnologiesUsed": [
-            "React-Vite",
-            "CSS",
-            "Axios",
-            "JSON"
+            "React",
+            "TypeScript",
+            "Vite"
         ],
-        "projectLink": "https://practiceapps.netlify.app/",
-        "projectGithubLink": "https://github.com/BananaCode2023/Practice-Apps"
+        "projectLink": "https://pjestates2.netlify.app/",
+        "projectGithubLink": "https://github.com/BananaCode2023/PJEstates_TypeScript"
     },
     {
         "id": 3,
